@@ -1,7 +1,7 @@
 # maximo comun divisor
 def mcd(x, y):
     if x <= 0 or y <= 0:
-        print("No deven ser negativos")
+        print("No deben ser negativos")
         return -1
     elif x == 1 or y == 1:
         return 1
