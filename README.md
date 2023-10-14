@@ -1,5 +1,7 @@
 # Caja-blanca
 
+## grafo de MCD
+
 ```mermaid
 graph RL
     A((1))
@@ -35,5 +37,31 @@ graph RL
 
 
 
+
+```
+
+## grafo de Número Máximo
+
+```mermaid
+graph RL
+    A((1))
+    B((2))
+    C((3))
+    D((4))
+    E((5))
+    F((6))
+    G((7))
+    H((8))
+
+    A --> B
+    B --> C
+    B --> D
+    C --> E
+    D --> C
+    D --> G
+    C --> F
+    F --> H
+    E --> H
+    G --> H
 
 ```
