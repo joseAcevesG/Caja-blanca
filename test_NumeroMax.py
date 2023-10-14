@@ -2,6 +2,9 @@ import unittest
 
 import NumeroMax
 
+# coverage run --source=. -m unittest test_NumeroMax.TestNumeroMax.test_TC1
+# coverage report -m
+
 
 class TestNumeroMax(unittest.TestCase):
     def test_TC1(self):
