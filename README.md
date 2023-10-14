@@ -1,6 +1,7 @@
 # Caja-blanca
 
 ## Maximo Comun Divisor
+
 ```mermaid
 graph TD
     M((start))
@@ -36,6 +37,7 @@ graph TD
     C --> L
     
 ```
+
 V(G) = a - n + 2 = 18 - 13 + 2 = 7
 
 V(G) = r = 7
@@ -53,6 +55,7 @@ V(G) = c + 1 = 6 + 1 = 7
 |1,2,4,5,7,8,10,7,8,10,11|TC7|x=2, y=6|2|
 
 ## Numero Máximo
+
 ```mermaid
 graph TD
     I((start))
@@ -78,7 +81,6 @@ graph TD
     G --> H
     
 ```
-
 
 V(G) = a - n + 2 = 11 - 9 + 2 = 4
 
