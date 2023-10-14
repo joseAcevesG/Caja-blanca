@@ -1,24 +1,26 @@
 import unittest
-
 import NumeroMax
 
 class TestNumeroMax(unittest.TestCase):
-    def test_maximo_x(self):
-        resultado = NumeroMax.NumeroMax(10, 5, 8)
-        self.assertEqual(resultado, (10, "x"))
+    def test_TC1(self):
+        resultado = NumeroMax.NumeroMax(3, 2, 1)
+        self.assertEqual(resultado, (3, "x"))
 
-    def test_maximo_y(self):
-        resultado = NumeroMax.NumeroMax(5, 8, 3)
-        self.assertEqual(resultado, (8, "y"))
+    def test_TC2(self):
+        resultado = NumeroMax.NumeroMax(1, 2, 3)
+        self.assertEqual(resultado, (3, "z"))
 
-    def test_maximo_z(self):
-        resultado = NumeroMax.NumeroMax(5, 10, 12)
-        self.assertEqual(resultado, (12, "z"))
+    def test_TC3(self):
+        resultado = NumeroMax.NumeroMax(1, 3, 2)
+        self.assertEqual(resultado, (3, "y"))
 
-    def test_iguales(self):
-        resultado = NumeroMax.NumeroMax(5, 5, 5)
-        self.assertEqual(resultado, (5, "y"))
+    def test_TC4a(self):
+        resultado = NumeroMax.NumeroMax(2, 2, 2)
+        self.assertEqual(resultado, (2, "y"))
 
+    def test_TC4b(self):
+        resultado = NumeroMax.NumeroMax(2, 2, 3)
+        self.assertEqual(resultado, (3, "z"))
 
 if __name__ == "__main__":
     unittest.main()
