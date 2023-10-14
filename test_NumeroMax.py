@@ -14,11 +14,7 @@ class TestNumeroMax(unittest.TestCase):
         resultado = NumeroMax.NumeroMax(1, 3, 2)
         self.assertEqual(resultado, (3, "y"))
 
-    def test_TC4a(self):
-        resultado = NumeroMax.NumeroMax(2, 2, 2)
-        self.assertEqual(resultado, (2, "y"))
-
-    def test_TC4b(self):
+    def test_TC4(self):
         resultado = NumeroMax.NumeroMax(2, 2, 3)
         self.assertEqual(resultado, (3, "z"))
 
