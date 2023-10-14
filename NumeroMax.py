@@ -8,8 +8,9 @@ def NumeroMax(x, y, z):
     else:
         max_value = y
         max_variable = "y"
-    
+
     return max_value, max_variable
+
 
 if __name__ == "__main__":
     x = int(input("Introduce x: "))
